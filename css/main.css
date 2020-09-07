@@ -9,7 +9,7 @@
 center {
     position: relative;
     margin: 20px auto;
-    width: 600px;
+    width: 60%;
     height: 60px;
     text-align: center;
     line-height: 60px;
@@ -18,6 +18,12 @@ center {
     font-weight: bold;
     border: 5px solid #cccccc;
     border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+    center {
+        width: 50%;
+    }
 }
 
 #calculadora {
